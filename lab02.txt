@@ -3,3 +3,75 @@ Mengzhe Li
 September 23, 2016
 Lab02: Debugger
 
+Problem 1
+
+1)
+	There is a Segmentation Fault (Signal: SIGSEGV) that occurs if we continue past the breakpoint.
+
+2)
+	frame 0 - strtol_l.c:297
+	frame 1 - strtol.c:109
+	frame 2 - atoi.c:27
+	frame 3 - problem1.c:17
+
+3) 
+	No (nptr = <optimized out>)
+
+4) 
+	0x0 - NULL pointer
+
+5) 
+	1835
+
+*6)
+	argc = 2
+	argv[] = {0x7fffffffe742, 0x7fffffffe76c}
+	The elements of argv[] came from 
+
+7) 
+	a) atoi.c:26 
+	b) problem1.c:5
+
+8)
+	a) Lines 1-10 of the source code
+	b) The rest of the source code (11-19)
+
+9)
+	The return key runs the program step by step like an instruction counter.
+
+10)
+	result = 10
+	a = 5
+	b = 16
+
+*11)
+	a) Lines 6, 5, 8, 9
+	b) The debugger is showing us these lines in this order because it needs the parameter a to put into the result variable and then it needs to set up variable i for the while loop. Since i is not needed right away, a is put into the result var first.
+
+*12)
+	 The program stops at problem1.c:17
+
+13)
+	a) 0x00000000004004ca
+	b) 0x00000000004004f7
+
+*14)
+	
+
+15)
+	a) print/x 42 prints the hexadecimal number from a decimal number 42 (print/x 42 = 0x2a)
+	b) p 0x2f prints the decimal number 47 from a hexadecimal number 0x2f (p 0x2f = 47)
+
+16)
+	The constant in the sub comes from the int value of parameter b, which is 16
+
+*17)
+	
+
+*19) 
+	result = -1580
+	No out-of-order execution as a result of optimization
+
+Problem 2
+
+1)
