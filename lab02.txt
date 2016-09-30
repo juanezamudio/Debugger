@@ -160,8 +160,8 @@ Problem 3
 9)
 	The registers that have not be covered in class are rcx, eflags, ds, es, fs, gs.
 
-*10)
-	The flags that are currently set that we have discusses in class is just the ZF. 
+10)
+	The flags that are currently set that we have discusses in class is just the ZF. The instruction that caused this flag to be set was an unsigned integer addition overflow. 
 
 11)
 	The value of $r8 = 140737351872352. The value obtained from “p/x $r8” (0x7ffff7dd6f60) is not that meaningful. The relationship between the values printed for $r8d is that the least significant four bytes of $r8 are printed in hex and dec.
@@ -182,4 +182,8 @@ Problem 3
 	The source line listed is problem2.c:26.
 
 17)
+	The value is 0x4006c7.
+
+18)
+	%rsp changed to 0x7fffffffe320 from 0x7fffffffe318
 	
