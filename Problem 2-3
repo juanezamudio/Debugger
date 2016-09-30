@@ -1,0 +1,1195 @@
+Last login: Fri Sep 30 08:53:43 on console
+jzamudio 
+
+8:54 [jzamudio@terabithia:~]
+1 % jzamudio@wilkes.cs.hmc.edu
+zsh: command not found: jzamudio@wilkes.cs.hmc.edu
+8:54 [jzamudio@terabithia:~]
+2 % ssh jzamudio@wilkes.cs.hmc.edu
+The authenticity of host 'wilkes.cs.hmc.edu (134.173.42.167)' can't be established.
+RSA key fingerprint is ab:75:42:71:45:81:2a:15:2b:80:39:37:ab:70:92:3f.
+Are you sure you want to continue connecting (yes/no)? y
+Please type 'yes' or 'no': yes
+Warning: Permanently added 'wilkes.cs.hmc.edu,134.173.42.167' (RSA) to the list of known hosts.
+Password: 
+
+	wilkes: HMC Computer Science Dept      Dell PowerEdge SC1425
+	Gentoo Linux/amd64
+	             2x Intel(R) Xeon(TM) 2.80GHz EM64T with 3GB RAM
+
+	****************** AUTHORIZED USERS ONLY! ******************
+
+	Upon encountering bizarre behavior, send mail to "staff".
+	Questions about the system should be sent to "consult".
+	Documentation for a variety topics may be found on the web:
+	http://www.cs.hmc.edu/qref/
+
+	System policy is detailed at the following web page:
+	http://www.cs.hmc.edu/wiki/QREF/Policy
+	Users are responsible for reading and following all system
+	policies. Use of this system implies consent to follow all
+	system policies.
+
+	Friday afternoons are reserved for system work and possible
+	down time.  Plan your schedules accordingly.
+
+	************************************************************
+
+	wilkes.cs.hmc.edu is named for Sir Maurice Vincent Wilkes
+	(26 June 1913 - 29 November 2010).  He is known for several
+	important early computers, including the EDSAC, EDSAC 2, and
+	Titan.  He developed microprogramming, symbolic labels, macros,
+	and subroutine libraries.  More information about Dr. Wilkes
+	can be found at http://en.wikipedia.org/wiki/Maurice_Wilkes
+
+
+
+abaugus jzamudio mheuman msacks tstannard 
+
+Politicians are the same all over.  They promise to build a bridge even
+where there is no river.
+	-- Nikita Khrushchev
+8:54 [jzamudio@wilkes:~]
+1 % passwd
+Changing your password on the Linux machines is currently causing problems.
+Please change it on one of the Macs.  (Either log in on one of the lab
+machines, or ssh to cortana.cs.hmc.edu and run 'passwd' there.)
+8:55 [jzamudio@wilkes:~]
+2 % ls 
+Desktop    Downloads  Maildir  Music	 courses
+Documents  Library    Movies   Pictures  public_html
+9:33 [jzamudio@wilkes:~]
+3 % cd Desktop 
+9:33 [jzamudio@wilkes:~/Desktop]
+4 % ls
+Additional Applications  Applications  cs105
+9:33 [jzamudio@wilkes:~/Desktop]
+5 % cd cs105 
+9:34 [jzamudio@wilkes:~/Desktop/cs105]
+6 % ls
+lab02.txt  problem1  problem1.c  problem2  problem2.c
+9:34 [jzamudio@wilkes:~/Desktop/cs105]
+7 % git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   problem1
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+	._.DS_Store
+	problem2
+
+no changes added to commit (use "git add" and/or "git commit -a")
+9:34 [jzamudio@wilkes:~/Desktop/cs105]
+8 % git pull
+remote: Counting objects: 7, done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 7 (delta 3), reused 6 (delta 2), pack-reused 0
+Unpacking objects: 100% (7/7), done.
+From https://github.com/juanezamudio/cs105
+   096cd99..31497f4  master     -> origin/master
+Updating 096cd99..31497f4
+Fast-forward
+ Problem1TerminalLog | 1548 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ lab02.txt           |   79 +++
+ 2 files changed, 1627 insertions(+)
+ create mode 100644 Problem1TerminalLog
+9:34 [jzamudio@wilkes:~/Desktop/cs105]
+9 % ls 
+Problem1TerminalLog  lab02.txt	problem1  problem1.c  problem2	problem2.c
+9:34 [jzamudio@wilkes:~/Desktop/cs105]
+10 % git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   problem1
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+	._.DS_Store
+	problem2
+
+no changes added to commit (use "git add" and/or "git commit -a")
+9:34 [jzamudio@wilkes:~/Desktop/cs105]
+11 % git checkout
+M	problem1
+Your branch is up-to-date with 'origin/master'.
+9:34 [jzamudio@wilkes:~/Desktop/cs105]
+12 % git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   problem1
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+	._.DS_Store
+	problem2
+
+no changes added to commit (use "git add" and/or "git commit -a")
+9:35 [jzamudio@wilkes:~/Desktop/cs105]
+13 % git checkout
+M	problem1
+Your branch is up-to-date with 'origin/master'.
+9:35 [jzamudio@wilkes:~/Desktop/cs105]
+14 % git pull
+Already up-to-date.
+9:35 [jzamudio@wilkes:~/Desktop/cs105]
+15 % gcc -g -Og -o problem2 problem2.c 
+9:38 [jzamudio@wilkes:~/Desktop/cs105]
+16 % gdb problem2
+GNU gdb (Gentoo 7.10.1 vanilla) 7.10.1
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://bugs.gentoo.org/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from problem2...done.
+(gdb) help x
+Examine memory: x/FMT ADDRESS.
+ADDRESS is an expression for the memory address to examine.
+FMT is a repeat count followed by a format letter and a size letter.
+Format letters are o(octal), x(hex), d(decimal), u(unsigned decimal),
+  t(binary), f(float), a(address), i(instruction), c(char), s(string)
+  and z(hex, zero padded on the left).
+Size letters are b(byte), h(halfword), w(word), g(giant, 8 bytes).
+The specified number of objects of the specified size are printed
+according to the format.
+
+Defaults for format and size letters are those previously used.
+Default count is 1.  Default address is following last thing printed
+with this command or "print".
+(gdb) x/16i &puzzle1
+   0x601084 <puzzle1>:	fisttpl (%rdi)
+   0x601086 <puzzle1+2>:	rex.WB
+   0x601087 <puzzle1+3>:	add    %al,(%rax)
+   0x60108a:	add    %al,(%rax)
+   0x60108c:	add    %al,(%rax)
+   0x60108e:	add    %al,(%rax)
+   0x601090:	Cannot access memory at address 0x601090
+(gdb) x/4b puzzle1
+0x40490fdb:	Cannot access memory at address 0x40490fdb
+(gdb) x/4bx puzzle1
+0x40490fdb:	Cannot access memory at address 0x40490fdb
+(gdb) p/4bx puzzle1
+Size letters are meaningless in "print" command.
+(gdb) p/4b puzzle1
+Size letters are meaningless in "print" command.
+(gdb) p/x puzzle1
+$1 = 0x40490fdb
+(gdb) p/4bx puzzle1
+Size letters are meaningless in "print" command.
+(gdb) p/4x puzzle1
+Item count other than 1 is meaningless in "print" command.
+(gdb) p/x4b puzzle1
+Invalid number "4b".
+(gdb) p/x puzzle1
+$2 = 0x40490fdb
+(gdb) p/4x puzzle1
+Item count other than 1 is meaningless in "print" command.
+(gdb) p/4x &puzzle1
+Item count other than 1 is meaningless in "print" command.
+(gdb) p/x &puzzle1
+$3 = 0x601084
+(gdb) x/2x puzzle1
+0x40490fdb:	Cannot access memory at address 0x40490fdb
+(gdb) x/2x &puzzle1
+0x601084 <puzzle1>:	0x40490fdb	0x00000000
+(gdb) x/u &puzzle1
+0x601084 <puzzle1>:	1078530011
+(gdb) print/x puzzle1
+$4 = 0x40490fdb
+(gdb) p puzzle1
+$5 = 1078530011
+(gdb) x/fw puzzle1
+0x40490fdb:	Cannot access memory at address 0x40490fdb
+(gdb) x/f puzzle1
+0x40490fdb:	Cannot access memory at address 0x40490fdb
+(gdb) x/32f puzzle1
+0x40490fdb:	Cannot access memory at address 0x40490fdb
+(gdb) x/16f puzzle1
+0x40490fdb:	Cannot access memory at address 0x40490fdb
+(gdb) x/16fw puzzle1
+0x40490fdb:	Cannot access memory at address 0x40490fdb
+(gdb) x/fw puzzle1
+0x40490fdb:	Cannot access memory at address 0x40490fdb
+(gdb) x/fw &puzzle1
+0x601084 <puzzle1>:	3.14159274
+(gdb) x/fw puzzle2
+0x60107c <puzzle2>:	-2.85695233e-32
+(gdb) x/fw puzzle2[0]
+0xffffffff8b145769:	Cannot access memory at address 0xffffffff8b145769
+(gdb) x/fw puzzle2[1]
+0x4005bf0a:	Cannot access memory at address 0x4005bf0a
+(gdb) x/fw puzzle2[2]
+0x40490fdb:	Cannot access memory at address 0x40490fdb
+(gdb) x/fw &puzzle2[0]
+0x60107c <puzzle2>:	-2.85695233e-32
+(gdb) x/fw &puzzle2[1]
+0x601080 <puzzle2+4>:	2.0897851
+(gdb) x/fw &puzzle2[2]
+0x601084 <puzzle1>:	3.14159274
+(gdb) x/fg puzzle2
+0x60107c <puzzle2>:	2.7182818284590451
+(gdb) x/fg &puzzle2[0]
+0x60107c <puzzle2>:	2.7182818284590451
+(gdb) x/fg &puzzle2[1]
+0x601080 <puzzle2+4>:	50.123878481679711
+(gdb) x/fg &puzzle2[2]
+0x601084 <puzzle1>:	5.3286462644388174e-315
+(gdb) x/dg &puzzle2[2]
+0x601084 <puzzle1>:	1078530011
+(gdb) x/db &puzzle2[2]
+0x601084 <puzzle1>:	-37
+(gdb) x/dw &puzzle2[2]
+0x601084 <puzzle1>:	1078530011
+(gdb) x/dh &puzzle2[2]
+0x601084 <puzzle1>:	4059
+(gdb) x/fb &puzzle3
+0x601060 <puzzle3>:	87
+(gdb) x/fw &puzzle3
+0x601060 <puzzle3>:	2.06151077e-19
+(gdb) x/fh &puzzle3
+0x601060 <puzzle3>:	24919
+(gdb) x/fg &puzzle3
+0x601060 <puzzle3>:	3.9883733451518031e+252
+(gdb) x/dg &puzzle3
+0x601060 <puzzle3>:	8386098829110501719
+(gdb) x/db &puzzle3
+0x601060 <puzzle3>:	87
+(gdb) x/dh &puzzle3
+0x601060 <puzzle3>:	24919
+(gdb) x/dw &puzzle3
+0x601060 <puzzle3>:	544432471
+(gdb) x/nb &puzzle3
+0x601060 <puzzle3>:	Undefined output format "n".
+(gdb) x/cb &puzzle3
+0x601060 <puzzle3>:	87 'W'
+(gdb) x/ch &puzzle3
+0x601060 <puzzle3>:	87 'W'
+(gdb) x/cw &puzzle3
+0x601060 <puzzle3>:	87 'W'
+(gdb) x/cg &puzzle3
+0x601060 <puzzle3>:	87 'W'
+(gdb) x/cg puzzle3
+0x601060 <puzzle3>:	87 'W'
+(gdb) x/cb puzzle3
+0x601060 <puzzle3>:	87 'W'
+(gdb) x/cs puzzle3
+0x601060 <puzzle3>:	"Was that really so hard?"
+(gdb) x/sb puzzle3
+0x601060 <puzzle3>:	"Was that really so hard?"
+(gdb) b fix_array 
+Breakpoint 1 at 0x400649: file problem2.c, line 20.
+(gdb) r 1
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem2 1
+
+Breakpoint 1, fix_array (a=a@entry=0x602010, a_size=a_size@entry=1)
+    at problem2.c:20
+20	{
+(gdb) print a_size 
+$6 = 1
+(gdb) r 1 1 2 3
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem2 1 1 2 3
+
+Breakpoint 1, fix_array (a=a@entry=0x602010, a_size=a_size@entry=4)
+    at problem2.c:20
+20	{
+(gdb) print a_size
+$7 = 4
+(gdb) r 1 1 2 3 5 8 13 21 44 65
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem2 1 1 2 3 5 8 13 21 44 65
+
+Breakpoint 1, fix_array (a=a@entry=0x602010, a_size=a_size@entry=10)
+    at problem2.c:20
+20	{
+(gdb) print a_size
+$8 = 10
+(gdb) display a
+1: a = (int *) 0x602010
+(gdb) s
+23	    for (i = 0;  i < a_size;  i++, a++) {
+1: a = (int *) 0x602010
+(gdb) 
+24		*a = hmc_pomona_fix(*a);
+1: a = (int *) 0x602010
+(gdb) 
+hmc_pomona_fix (x=0) at problem2.c:11
+11	    if (x == 42)
+(gdb) 
+13	    else if (x == 47)
+(gdb) 
+16		return x;
+(gdb) 
+17	}
+(gdb) 
+fix_array (a=a@entry=0x602010, a_size=a_size@entry=10) at problem2.c:23
+23	    for (i = 0;  i < a_size;  i++, a++) {
+1: a = (int *) 0x602010
+(gdb) 
+24		*a = hmc_pomona_fix(*a);
+1: a = (int *) 0x602014
+(gdb) print i
+$9 = 1
+(gdb) display i
+2: i = 1
+(gdb) n
+23	    for (i = 0;  i < a_size;  i++, a++) {
+2: i = 1
+1: a = (int *) 0x602014
+(gdb) 
+24		*a = hmc_pomona_fix(*a);
+2: i = 2
+1: a = (int *) 0x602018
+(gdb) p *a
+$10 = 1
+(gdb) next 12
+24		*a = hmc_pomona_fix(*a);
+2: i = 8
+1: a = (int *) 0x602030
+(gdb) p *a
+$11 = 21
+(gdb) n
+23	    for (i = 0;  i < a_size;  i++, a++) {
+2: i = 8
+1: a = (int *) 0x602030
+(gdb) 
+24		*a = hmc_pomona_fix(*a);
+2: i = 9
+1: a = (int *) 0x602034
+(gdb) 
+23	    for (i = 0;  i < a_size;  i++, a++) {
+2: i = 9
+1: a = (int *) 0x602034
+(gdb) 
+26	}
+2: i = 10
+1: a = (int *) 0x602038
+(gdb) 
+main (argc=11, argv=0x7fffffffe3f8) at problem2.c:39
+39	    for (i = 1;  i < argc;  i++) {
+(gdb) 
+40		printf ("%d ", array[i]);
+(gdb) n
+39	    for (i = 1;  i < argc;  i++) {
+(gdb) n
+40		printf ("%d ", array[i]);
+(gdb) n 12
+40		printf ("%d ", array[i]);
+(gdb) 
+1 1 2 3 5 8 13 21 44 65 
+[Inferior 1 (process 2594) exited normally]
+(gdb) 
+The program is not being run.
+(gdb) 
+The program is not being run.
+(gdb) quit
+10:25 [jzamudio@wilkes:~/Desktop/cs105]
+17 % gcc -g -Og -o problem2 problem2.c
+10:26 [jzamudio@wilkes:~/Desktop/cs105]
+18 % r 1 42 2 47 3
+fc: too many arguments
+10:26 [jzamudio@wilkes:~/Desktop/cs105]
+19 % gdb problem2
+GNU gdb (Gentoo 7.10.1 vanilla) 7.10.1
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://bugs.gentoo.org/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from problem2...done.
+(gdb) r 1 42 2 47 3
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem2 1 42 2 47 3
+1 47 2 42 3 
+[Inferior 1 (process 4754) exited normally]
+(gdb) quit
+10:28 [jzamudio@wilkes:~/Desktop/cs105]
+20 % gcc -g -Og -o problem2 problem2.c
+10:28 [jzamudio@wilkes:~/Desktop/cs105]
+21 % gdb problem2
+GNU gdb (Gentoo 7.10.1 vanilla) 7.10.1
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://bugs.gentoo.org/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from problem2...done.
+(gdb) r 1 42 2 47 3
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem2 1 42 2 47 3
+1 47 2 42 3 
+[Inferior 1 (process 4864) exited normally]
+(gdb) b main
+Breakpoint 1 at 0x400674: file problem2.c, line 29.
+(gdb) r 1 42 2 47 3
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem2 1 42 2 47 3
+
+Breakpoint 1, main (argc=6, argv=0x7fffffffe428) at problem2.c:29
+29	{
+(gdb) list
+24		*a = hmc_pomona_fix(*a);
+25	    }
+26	}
+27	
+28	int main(int argc, char *argv[])
+29	{
+30	    int *array;
+31	    int i;
+32	
+33	    array = (int *)malloc(argc * sizeof(int));
+(gdb) b 35
+Breakpoint 2 at 0x400690: file problem2.c, line 35.
+(gdb) c
+Continuing.
+
+Breakpoint 2, main (argc=6, argv=0x7fffffffe428) at problem2.c:35
+35	    for (i = 1;  i < argc;  i++) {
+(gdb) c
+Continuing.
+1 47 2 42 3 
+[Inferior 1 (process 5093) exited normally]
+(gdb) r
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem2 1 42 2 47 3
+
+Breakpoint 1, main (argc=6, argv=0x7fffffffe428) at problem2.c:29
+29	{
+(gdb) c
+Continuing.
+
+Breakpoint 2, main (argc=6, argv=0x7fffffffe428) at problem2.c:35
+35	    for (i = 1;  i < argc;  i++) {
+(gdb) info b
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000000000400674 in main at problem2.c:29
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x0000000000400690 in main at problem2.c:35
+	breakpoint already hit 1 time
+(gdb) disassem main
+Dump of assembler code for function main:
+   0x0000000000400674 <+0>:	push   %r14
+   0x0000000000400676 <+2>:	push   %r13
+   0x0000000000400678 <+4>:	push   %r12
+   0x000000000040067a <+6>:	push   %rbp
+   0x000000000040067b <+7>:	push   %rbx
+   0x000000000040067c <+8>:	mov    %edi,%ebp
+   0x000000000040067e <+10>:	mov    %rsi,%r14
+   0x0000000000400681 <+13>:	movslq %edi,%rdi
+   0x0000000000400684 <+16>:	shl    $0x2,%rdi
+   0x0000000000400688 <+20>:	callq  0x400540 <malloc@plt>
+   0x000000000040068d <+25>:	mov    %rax,%r12
+=> 0x0000000000400690 <+28>:	mov    $0x1,%ebx
+   0x0000000000400695 <+33>:	jmp    0x4006b8 <main+68>
+   0x0000000000400697 <+35>:	movslq %ebx,%rdx
+   0x000000000040069a <+38>:	lea    (%r12,%rdx,4),%r13
+   0x000000000040069e <+42>:	mov    (%r14,%rdx,8),%rdi
+   0x00000000004006a2 <+46>:	mov    $0xa,%edx
+   0x00000000004006a7 <+51>:	mov    $0x0,%esi
+   0x00000000004006ac <+56>:	callq  0x400530 <strtol@plt>
+   0x00000000004006b1 <+61>:	mov    %eax,0x0(%r13)
+   0x00000000004006b5 <+65>:	add    $0x1,%ebx
+   0x00000000004006b8 <+68>:	cmp    %ebp,%ebx
+   0x00000000004006ba <+70>:	jl     0x400697 <main+35>
+   0x00000000004006bc <+72>:	lea    -0x1(%rbp),%esi
+   0x00000000004006bf <+75>:	mov    %r12,%rdi
+   0x00000000004006c2 <+78>:	callq  0x400649 <fix_array>
+   0x00000000004006c7 <+83>:	mov    $0x1,%ebx
+   0x00000000004006cc <+88>:	jmp    0x4006ec <main+120>
+   0x00000000004006ce <+90>:	movslq %ebx,%rax
+   0x00000000004006d1 <+93>:	mov    (%r12,%rax,4),%edx
+   0x00000000004006d5 <+97>:	mov    $0x400794,%esi
+   0x00000000004006da <+102>:	mov    $0x1,%edi
+   0x00000000004006df <+107>:	mov    $0x0,%eax
+   0x00000000004006e4 <+112>:	callq  0x400550 <__printf_chk@plt>
+---Type <return> to continue, or q <return> to quit---
+   0x00000000004006e9 <+117>:	add    $0x1,%ebx
+   0x00000000004006ec <+120>:	cmp    %ebp,%ebx
+   0x00000000004006ee <+122>:	jl     0x4006ce <main+90>
+   0x00000000004006f0 <+124>:	mov    $0xa,%edi
+   0x00000000004006f5 <+129>:	callq  0x400500 <putchar@plt>
+   0x00000000004006fa <+134>:	mov    $0x0,%eax
+   0x00000000004006ff <+139>:	pop    %rbx
+   0x0000000000400700 <+140>:	pop    %rbp
+   0x0000000000400701 <+141>:	pop    %r12
+   0x0000000000400703 <+143>:	pop    %r13
+   0x0000000000400705 <+145>:	pop    %r14
+   0x0000000000400707 <+147>:	retq   
+End of assembler dump.
+(gdb) b *(main+35)
+Breakpoint 3 at 0x400697: file problem2.c, line 36.
+(gdb) info b
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000000000400674 in main at problem2.c:29
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x0000000000400690 in main at problem2.c:35
+	breakpoint already hit 1 time
+3       breakpoint     keep y   0x0000000000400697 in main at problem2.c:36
+(gdb) p array[0]@6
+$1 = {0, 0, 0, 0, 0, 0}
+(gdb) c
+Continuing.
+
+Breakpoint 3, main (argc=6, argv=0x7fffffffe428) at problem2.c:36
+36		array[i] = atoi(argv[i]);
+(gdb) c 4
+Will ignore next 3 crossings of breakpoint 3.  Continuing.
+
+Breakpoint 3, main (argc=6, argv=0x7fffffffe428) at problem2.c:36
+36		array[i] = atoi(argv[i]);
+(gdb) p array[0]@6
+$2 = {0, 1, 42, 2, 47, 0}
+(gdb) info b 
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000000000400674 in main at problem2.c:29
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x0000000000400690 in main at problem2.c:35
+	breakpoint already hit 1 time
+3       breakpoint     keep y   0x0000000000400697 in main at problem2.c:36
+	breakpoint already hit 5 times
+(gdb) d 1
+(gdb) disable 2
+(gdb) info b
+Num     Type           Disp Enb Address            What
+2       breakpoint     keep n   0x0000000000400690 in main at problem2.c:35
+	breakpoint already hit 1 time
+3       breakpoint     keep y   0x0000000000400697 in main at problem2.c:36
+	breakpoint already hit 5 times
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem2 1 42 2 47 3
+
+Breakpoint 3, main (argc=6, argv=0x7fffffffe428) at problem2.c:36
+36		array[i] = atoi(argv[i]);
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 7149] will be killed.
+
+Quit anyway? (y or n) y
+10:44 [jzamudio@wilkes:~/Desktop/cs105]
+22 % gcc -g -Og -o problem2 problem2.c 
+10:44 [jzamudio@wilkes:~/Desktop/cs105]
+23 % gdb problem2
+GNU gdb (Gentoo 7.10.1 vanilla) 7.10.1
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://bugs.gentoo.org/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from problem2...done.
+(gdb) b fix_array
+Breakpoint 1 at 0x400649: file problem2.c, line 20.
+(gdb) r 1 42 2 47 3
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem2 1 42 2 47 3
+
+Breakpoint 1, fix_array (a=a@entry=0x602010, a_size=a_size@entry=5)
+    at problem2.c:20
+20	{
+(gdb) info r
+rax            0x3	3
+rbx            0x6	6
+rcx            0x0	0
+rdx            0xa	10
+rsi            0x5	5
+rdi            0x602010	6299664
+rbp            0x6	0x6
+rsp            0x7fffffffe318	0x7fffffffe318
+r8             0x7ffff7dd6f60	140737351872352
+r9             0x7fffffffe770	140737488349040
+r10            0x0	0
+r11            0x3	3
+r12            0x602010	6299664
+r13            0x602024	6299684
+r14            0x7fffffffe428	140737488348200
+r15            0x0	0
+rip            0x400649	0x400649 <fix_array>
+eflags         0x246	[ PF ZF IF ]
+cs             0x33	51
+ss             0x2b	43
+ds             0x0	0
+es             0x0	0
+fs             0x0	0
+gs             0x0	0
+(gdb) p $r8
+$1 = 140737351872352
+(gdb) p/x $r8
+$2 = 0x7ffff7dd6f60
+(gdb) p $r8d
+$3 = -136482976
+(gdb) p/x $rd8
+$4 = Value can't be converted to integer.
+(gdb) p/x $r8d
+$5 = 0xf7dd6f60
+(gdb) x/16i $rip
+=> 0x400649 <fix_array>:	push   %r12
+   0x40064b <fix_array+2>:	push   %rbp
+   0x40064c <fix_array+3>:	push   %rbx
+   0x40064d <fix_array+4>:	mov    %rdi,%rbx
+   0x400650 <fix_array+7>:	mov    %esi,%r12d
+   0x400653 <fix_array+10>:	mov    $0x0,%ebp
+   0x400658 <fix_array+15>:	jmp    0x40066a <fix_array+33>
+   0x40065a <fix_array+17>:	mov    (%rbx),%edi
+   0x40065c <fix_array+19>:	callq  0x400630 <hmc_pomona_fix>
+   0x400661 <fix_array+24>:	mov    %eax,(%rbx)
+   0x400663 <fix_array+26>:	add    $0x1,%ebp
+   0x400666 <fix_array+29>:	add    $0x4,%rbx
+   0x40066a <fix_array+33>:	cmp    %r12d,%ebp
+   0x40066d <fix_array+36>:	jl     0x40065a <fix_array+17>
+   0x40066f <fix_array+38>:	pop    %rbx
+   0x400670 <fix_array+39>:	pop    %rbp
+(gdb) dissam fix_array
+Undefined command: "dissam".  Try "help".
+(gdb) disassem fix_array
+Dump of assembler code for function fix_array:
+=> 0x0000000000400649 <+0>:	push   %r12
+   0x000000000040064b <+2>:	push   %rbp
+   0x000000000040064c <+3>:	push   %rbx
+   0x000000000040064d <+4>:	mov    %rdi,%rbx
+   0x0000000000400650 <+7>:	mov    %esi,%r12d
+   0x0000000000400653 <+10>:	mov    $0x0,%ebp
+   0x0000000000400658 <+15>:	jmp    0x40066a <fix_array+33>
+   0x000000000040065a <+17>:	mov    (%rbx),%edi
+   0x000000000040065c <+19>:	callq  0x400630 <hmc_pomona_fix>
+   0x0000000000400661 <+24>:	mov    %eax,(%rbx)
+   0x0000000000400663 <+26>:	add    $0x1,%ebp
+   0x0000000000400666 <+29>:	add    $0x4,%rbx
+   0x000000000040066a <+33>:	cmp    %r12d,%ebp
+   0x000000000040066d <+36>:	jl     0x40065a <fix_array+17>
+   0x000000000040066f <+38>:	pop    %rbx
+   0x0000000000400670 <+39>:	pop    %rbp
+   0x0000000000400671 <+40>:	pop    %r12
+   0x0000000000400673 <+42>:	retq   
+End of assembler dump.
+(gdb) x/16i $rip
+=> 0x400649 <fix_array>:	push   %r12
+   0x40064b <fix_array+2>:	push   %rbp
+   0x40064c <fix_array+3>:	push   %rbx
+   0x40064d <fix_array+4>:	mov    %rdi,%rbx
+   0x400650 <fix_array+7>:	mov    %esi,%r12d
+   0x400653 <fix_array+10>:	mov    $0x0,%ebp
+   0x400658 <fix_array+15>:	jmp    0x40066a <fix_array+33>
+   0x40065a <fix_array+17>:	mov    (%rbx),%edi
+   0x40065c <fix_array+19>:	callq  0x400630 <hmc_pomona_fix>
+   0x400661 <fix_array+24>:	mov    %eax,(%rbx)
+   0x400663 <fix_array+26>:	add    $0x1,%ebp
+   0x400666 <fix_array+29>:	add    $0x4,%rbx
+   0x40066a <fix_array+33>:	cmp    %r12d,%ebp
+   0x40066d <fix_array+36>:	jl     0x40065a <fix_array+17>
+   0x40066f <fix_array+38>:	pop    %rbx
+   0x400670 <fix_array+39>:	pop    %rbp
+(gdb) 
+   0x400671 <fix_array+40>:	pop    %r12
+   0x400673 <fix_array+42>:	retq   
+   0x400674 <main>:	push   %r14
+   0x400676 <main+2>:	push   %r13
+   0x400678 <main+4>:	push   %r12
+   0x40067a <main+6>:	push   %rbp
+   0x40067b <main+7>:	push   %rbx
+   0x40067c <main+8>:	mov    %edi,%ebp
+   0x40067e <main+10>:	mov    %rsi,%r14
+   0x400681 <main+13>:	movslq %edi,%rdi
+   0x400684 <main+16>:	shl    $0x2,%rdi
+   0x400688 <main+20>:	callq  0x400540 <malloc@plt>
+   0x40068d <main+25>:	mov    %rax,%r12
+   0x400690 <main+28>:	mov    $0x1,%ebx
+   0x400695 <main+33>:	jmp    0x4006b8 <main+68>
+   0x400697 <main+35>:	movslq %ebx,%rdx
+(gdb) Quit
+(gdb) x/16i $rip
+=> 0x400649 <fix_array>:	push   %r12
+   0x40064b <fix_array+2>:	push   %rbp
+   0x40064c <fix_array+3>:	push   %rbx
+   0x40064d <fix_array+4>:	mov    %rdi,%rbx
+   0x400650 <fix_array+7>:	mov    %esi,%r12d
+   0x400653 <fix_array+10>:	mov    $0x0,%ebp
+   0x400658 <fix_array+15>:	jmp    0x40066a <fix_array+33>
+   0x40065a <fix_array+17>:	mov    (%rbx),%edi
+   0x40065c <fix_array+19>:	callq  0x400630 <hmc_pomona_fix>
+   0x400661 <fix_array+24>:	mov    %eax,(%rbx)
+   0x400663 <fix_array+26>:	add    $0x1,%ebp
+   0x400666 <fix_array+29>:	add    $0x4,%rbx
+   0x40066a <fix_array+33>:	cmp    %r12d,%ebp
+   0x40066d <fix_array+36>:	jl     0x40065a <fix_array+17>
+   0x40066f <fix_array+38>:	pop    %rbx
+   0x400670 <fix_array+39>:	pop    %rbp
+(gdb) 
+   0x400671 <fix_array+40>:	pop    %r12
+   0x400673 <fix_array+42>:	retq   
+   0x400674 <main>:	push   %r14
+   0x400676 <main+2>:	push   %r13
+   0x400678 <main+4>:	push   %r12
+   0x40067a <main+6>:	push   %rbp
+   0x40067b <main+7>:	push   %rbx
+   0x40067c <main+8>:	mov    %edi,%ebp
+   0x40067e <main+10>:	mov    %rsi,%r14
+   0x400681 <main+13>:	movslq %edi,%rdi
+   0x400684 <main+16>:	shl    $0x2,%rdi
+   0x400688 <main+20>:	callq  0x400540 <malloc@plt>
+   0x40068d <main+25>:	mov    %rax,%r12
+   0x400690 <main+28>:	mov    $0x1,%ebx
+   0x400695 <main+33>:	jmp    0x4006b8 <main+68>
+   0x400697 <main+35>:	movslq %ebx,%rdx
+(gdb) 
+   0x40069a <main+38>:	lea    (%r12,%rdx,4),%r13
+   0x40069e <main+42>:	mov    (%r14,%rdx,8),%rdi
+   0x4006a2 <main+46>:	mov    $0xa,%edx
+   0x4006a7 <main+51>:	mov    $0x0,%esi
+   0x4006ac <main+56>:	callq  0x400530 <strtol@plt>
+   0x4006b1 <main+61>:	mov    %eax,0x0(%r13)
+   0x4006b5 <main+65>:	add    $0x1,%ebx
+   0x4006b8 <main+68>:	cmp    %ebp,%ebx
+   0x4006ba <main+70>:	jl     0x400697 <main+35>
+   0x4006bc <main+72>:	lea    -0x1(%rbp),%esi
+   0x4006bf <main+75>:	mov    %r12,%rdi
+   0x4006c2 <main+78>:	callq  0x400649 <fix_array>
+   0x4006c7 <main+83>:	mov    $0x1,%ebx
+   0x4006cc <main+88>:	jmp    0x4006ec <main+120>
+   0x4006ce <main+90>:	movslq %ebx,%rax
+   0x4006d1 <main+93>:	mov    (%r12,%rax,4),%edx
+(gdb) 
+   0x4006d5 <main+97>:	mov    $0x400794,%esi
+   0x4006da <main+102>:	mov    $0x1,%edi
+   0x4006df <main+107>:	mov    $0x0,%eax
+   0x4006e4 <main+112>:	callq  0x400550 <__printf_chk@plt>
+   0x4006e9 <main+117>:	add    $0x1,%ebx
+   0x4006ec <main+120>:	cmp    %ebp,%ebx
+   0x4006ee <main+122>:	jl     0x4006ce <main+90>
+   0x4006f0 <main+124>:	mov    $0xa,%edi
+   0x4006f5 <main+129>:	callq  0x400500 <putchar@plt>
+   0x4006fa <main+134>:	mov    $0x0,%eax
+   0x4006ff <main+139>:	pop    %rbx
+   0x400700 <main+140>:	pop    %rbp
+   0x400701 <main+141>:	pop    %r12
+   0x400703 <main+143>:	pop    %r13
+   0x400705 <main+145>:	pop    %r14
+   0x400707 <main+147>:	retq   
+(gdb) 
+   0x400708:	nopl   0x0(%rax,%rax,1)
+   0x400710 <__libc_csu_init>:	push   %r15
+   0x400712 <__libc_csu_init+2>:	mov    %edi,%r15d
+   0x400715 <__libc_csu_init+5>:	push   %r14
+   0x400717 <__libc_csu_init+7>:	mov    %rsi,%r14
+   0x40071a <__libc_csu_init+10>:	push   %r13
+   0x40071c <__libc_csu_init+12>:	mov    %rdx,%r13
+   0x40071f <__libc_csu_init+15>:	push   %r12
+   0x400721 <__libc_csu_init+17>:	
+    lea    0x2006e8(%rip),%r12        # 0x600e10
+   0x400728 <__libc_csu_init+24>:	push   %rbp
+   0x400729 <__libc_csu_init+25>:	
+    lea    0x2006e8(%rip),%rbp        # 0x600e18
+   0x400730 <__libc_csu_init+32>:	push   %rbx
+   0x400731 <__libc_csu_init+33>:	sub    %r12,%rbp
+   0x400734 <__libc_csu_init+36>:	xor    %ebx,%ebx
+   0x400736 <__libc_csu_init+38>:	sar    $0x3,%rbp
+   0x40073a <__libc_csu_init+42>:	sub    $0x8,%rsp
+(gdb) 
+   0x40073e <__libc_csu_init+46>:	callq  0x4004c8 <_init>
+   0x400743 <__libc_csu_init+51>:	test   %rbp,%rbp
+   0x400746 <__libc_csu_init+54>:	je     0x400766 <__libc_csu_init+86>
+   0x400748 <__libc_csu_init+56>:	nopl   0x0(%rax,%rax,1)
+   0x400750 <__libc_csu_init+64>:	mov    %r13,%rdx
+   0x400753 <__libc_csu_init+67>:	mov    %r14,%rsi
+   0x400756 <__libc_csu_init+70>:	mov    %r15d,%edi
+   0x400759 <__libc_csu_init+73>:	callq  *(%r12,%rbx,8)
+   0x40075d <__libc_csu_init+77>:	add    $0x1,%rbx
+   0x400761 <__libc_csu_init+81>:	cmp    %rbp,%rbx
+   0x400764 <__libc_csu_init+84>:	jne    0x400750 <__libc_csu_init+64>
+   0x400766 <__libc_csu_init+86>:	add    $0x8,%rsp
+   0x40076a <__libc_csu_init+90>:	pop    %rbx
+   0x40076b <__libc_csu_init+91>:	pop    %rbp
+   0x40076c <__libc_csu_init+92>:	pop    %r12
+   0x40076e <__libc_csu_init+94>:	pop    %r13
+(gdb) 
+   0x400770 <__libc_csu_init+96>:	pop    %r14
+   0x400772 <__libc_csu_init+98>:	pop    %r15
+   0x400774 <__libc_csu_init+100>:	retq   
+   0x400775:	nop
+   0x400776:	nopw   %cs:0x0(%rax,%rax,1)
+   0x400780 <__libc_csu_fini>:	repz retq 
+   0x400782:	add    %al,(%rax)
+   0x400784 <_fini>:	sub    $0x8,%rsp
+   0x400788 <_fini+4>:	add    $0x8,%rsp
+   0x40078c <_fini+8>:	retq   
+   0x40078d:	add    %al,(%rax)
+   0x40078f:	add    %al,(%rcx)
+   0x400791 <_IO_stdin_used+1>:	add    %al,(%rdx)
+   0x400793 <_IO_stdin_used+3>:	add    %ah,0x1002064(%rip)        # 0x14027fd
+   0x400799:	sbb    (%rbx),%eax
+   0x40079b:	cmp    0x0(%rax,%rax,1),%eax
+(gdb) 
+   0x40079f:	add    %al,(%rdi)
+   0x4007a1:	add    %al,(%rax)
+   0x4007a3:	add    %bl,-0x3(%rax)
+   0x4007a6:	(bad)  
+   0x4007a7:	callq  *-0x38000000(%rax)
+   0x4007ad:	std    
+   0x4007ae:	(bad)  
+   0x4007af:	jmpq   *0x0(%rax)
+   0x4007b2:	add    %al,(%rax)
+   0x4007b4:	cwtl   
+   0x4007b5:	(bad)  
+   0x4007b6:	(bad)  
+   0x4007b7:	(bad)  
+   0x4007b8:	mov    $0xb1000000,%eax
+   0x4007bd:	(bad)  
+   0x4007be:	(bad)  
+(gdb) 
+   0x4007bf:	callq  *%rax
+   0x4007c1:	add    %al,(%rax)
+   0x4007c3:	add    %bl,%ah
+   0x4007c5:	(bad)  
+   0x4007c6:	(bad)  
+   0x4007c7:	incl   (%rax)
+   0x4007c9:	add    %eax,(%rax)
+   0x4007cb:	add    %bh,-0x1(%rax)
+   0x4007ce:	(bad)  
+   0x4007cf:	incl   0x1(%rax)
+   0x4007d2:	add    %al,(%rax)
+   0x4007d4:	callq  0xffffffff894007d8
+   0x4007d9:	add    %eax,(%rax)
+   0x4007db:	add    %al,(%rax)
+   0x4007dd:	add    %al,(%rax)
+   0x4007df:	add    %dl,(%rax,%rax,1)
+(gdb) 
+   0x4007e2:	add    %al,(%rax)
+   0x4007e4:	add    %al,(%rax)
+   0x4007e6:	add    %al,(%rax)
+   0x4007e8:	add    %edi,0x52(%rdx)
+   0x4007eb:	add    %al,(%rcx)
+   0x4007ed:	js     0x4007ff
+   0x4007ef:	add    %ebx,(%rbx)
+   0x4007f1:	or     $0x7,%al
+   0x4007f3:	or     %dl,0x14100701(%rax)
+   0x4007f9:	add    %al,(%rax)
+   0x4007fb:	add    %bl,(%rax,%rax,1)
+   0x4007fe:	add    %al,(%rax)
+   0x400800:	(bad)  
+   0x400801:	std    
+   0x400802:	(bad)  
+   0x400803:	ljmp   *(%rdx)
+(gdb) 
+   0x400805:	add    %al,(%rax)
+   0x400807:	add    %al,(%rax)
+   0x400809:	add    %al,(%rax)
+   0x40080b:	add    %al,(%rax)
+   0x40080d:	add    %al,(%rax)
+   0x40080f:	add    %dl,(%rax,%rax,1)
+   0x400812:	add    %al,(%rax)
+   0x400814:	add    %al,(%rax)
+   0x400816:	add    %al,(%rax)
+   0x400818:	add    %edi,0x52(%rdx)
+   0x40081b:	add    %al,(%rcx)
+   0x40081d:	js     0x40082f
+   0x40081f:	add    %ebx,(%rbx)
+   0x400821:	or     $0x7,%al
+   0x400823:	or     %dl,0x24000001(%rax)
+   0x400829:	add    %al,(%rax)
+(gdb) 
+   0x40082b:	add    %bl,(%rax,%rax,1)
+   0x40082e:	add    %al,(%rax)
+   0x400830:	sar    $0xff,%ah
+   0x400833:	pushq  0x0(%rax)
+   0x400836:	add    %al,(%rax)
+   0x400838:	add    %cl,(%rsi)
+   0x40083a:	adc    %al,0xe(%rsi)
+   0x40083d:	sbb    %cl,0xf(%rdx)
+   0x400840:	or     0x8(%rdi),%esi
+   0x400843:	addb   $0x3f,(%rax)
+   0x400846:	sbb    (%rbx),%bh
+   0x400848:	sub    (%rbx),%dh
+   0x40084a:	and    $0x22,%al
+   0x40084c:	add    %al,(%rax)
+   0x40084e:	add    %al,(%rax)
+   0x400850:	adc    $0x0,%al
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 7429] will be killed.
+
+Quit anyway? (y or n) n
+Not confirmed.
+(gdb) Quit
+A debugging session is active.
+
+	Inferior 1 [process 7429] will be killed.
+
+Quit anyway? (y or n) n
+Not confirmed.
+(gdb) x/16i $rip
+=> 0x400649 <fix_array>:	push   %r12
+   0x40064b <fix_array+2>:	push   %rbp
+   0x40064c <fix_array+3>:	push   %rbx
+   0x40064d <fix_array+4>:	mov    %rdi,%rbx
+   0x400650 <fix_array+7>:	mov    %esi,%r12d
+   0x400653 <fix_array+10>:	mov    $0x0,%ebp
+   0x400658 <fix_array+15>:	jmp    0x40066a <fix_array+33>
+   0x40065a <fix_array+17>:	mov    (%rbx),%edi
+   0x40065c <fix_array+19>:	callq  0x400630 <hmc_pomona_fix>
+   0x400661 <fix_array+24>:	mov    %eax,(%rbx)
+   0x400663 <fix_array+26>:	add    $0x1,%ebp
+   0x400666 <fix_array+29>:	add    $0x4,%rbx
+   0x40066a <fix_array+33>:	cmp    %r12d,%ebp
+   0x40066d <fix_array+36>:	jl     0x40065a <fix_array+17>
+   0x40066f <fix_array+38>:	pop    %rbx
+   0x400670 <fix_array+39>:	pop    %rbp
+(gdb) 
+   0x400671 <fix_array+40>:	pop    %r12
+   0x400673 <fix_array+42>:	retq   
+   0x400674 <main>:	push   %r14
+   0x400676 <main+2>:	push   %r13
+   0x400678 <main+4>:	push   %r12
+   0x40067a <main+6>:	push   %rbp
+   0x40067b <main+7>:	push   %rbx
+   0x40067c <main+8>:	mov    %edi,%ebp
+   0x40067e <main+10>:	mov    %rsi,%r14
+   0x400681 <main+13>:	movslq %edi,%rdi
+   0x400684 <main+16>:	shl    $0x2,%rdi
+   0x400688 <main+20>:	callq  0x400540 <malloc@plt>
+   0x40068d <main+25>:	mov    %rax,%r12
+   0x400690 <main+28>:	mov    $0x1,%ebx
+   0x400695 <main+33>:	jmp    0x4006b8 <main+68>
+   0x400697 <main+35>:	movslq %ebx,%rdx
+(gdb) stepi
+0x000000000040064b	20	{
+(gdb) 
+0x000000000040064c	20	{
+(gdb) 
+0x000000000040064d	20	{
+(gdb) 
+0x0000000000400650	20	{
+(gdb) 
+23	    for (i = 0;  i < a_size;  i++, a++) {
+(gdb) 
+0x0000000000400658	23	    for (i = 0;  i < a_size;  i++, a++) {
+(gdb) step i
+readline: readline_callback_read_char() called with no handler!
+zsh: abort      gdb problem2
+11:06 [jzamudio@wilkes:~/Desktop/cs105]
+24 % gdb problem 2
+GNU gdb (Gentoo 7.10.1 vanilla) 7.10.1
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://bugs.gentoo.org/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+problem: No such file or directory.
+Attaching to process 2
+ptrace: Operation not permitted.
+/mnt/home/jzamudio/Desktop/cs105/2: No such file or directory.
+(gdb) b fix_array
+No symbol table is loaded.  Use the "file" command.
+Make breakpoint pending on future shared library load? (y or [n]) y
+Breakpoint 1 (fix_array) pending.
+(gdb) info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   <PENDING>  fix_array
+(gdb) quit
+11:08 [jzamudio@wilkes:~/Desktop/cs105]
+25 % gdb problem2
+GNU gdb (Gentoo 7.10.1 vanilla) 7.10.1
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://bugs.gentoo.org/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from problem2...done.
+(gdb) b fix_array 
+Breakpoint 1 at 0x400649: file problem2.c, line 20.
+(gdb) r 1 42 2 47 3
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem2 1 42 2 47 3
+
+Breakpoint 1, fix_array (a=a@entry=0x602010, a_size=a_size@entry=5)
+    at problem2.c:20
+20	{
+(gdb) stepi
+0x000000000040064b	20	{
+(gdb) 
+0x000000000040064c	20	{
+(gdb) 
+0x000000000040064d	20	{
+(gdb) 
+0x0000000000400650	20	{
+(gdb) 
+23	    for (i = 0;  i < a_size;  i++, a++) {
+(gdb) x/16i $rip
+=> 0x400653 <fix_array+10>:	mov    $0x0,%ebp
+   0x400658 <fix_array+15>:	jmp    0x40066a <fix_array+33>
+   0x40065a <fix_array+17>:	mov    (%rbx),%edi
+   0x40065c <fix_array+19>:	callq  0x400630 <hmc_pomona_fix>
+   0x400661 <fix_array+24>:	mov    %eax,(%rbx)
+   0x400663 <fix_array+26>:	add    $0x1,%ebp
+   0x400666 <fix_array+29>:	add    $0x4,%rbx
+   0x40066a <fix_array+33>:	cmp    %r12d,%ebp
+   0x40066d <fix_array+36>:	jl     0x40065a <fix_array+17>
+   0x40066f <fix_array+38>:	pop    %rbx
+   0x400670 <fix_array+39>:	pop    %rbp
+   0x400671 <fix_array+40>:	pop    %r12
+   0x400673 <fix_array+42>:	retq   
+   0x400674 <main>:	push   %r14
+   0x400676 <main+2>:	push   %r13
+   0x400678 <main+4>:	push   %r12
+(gdb) stepi 5
+0x000000000040065c	24		*a = hmc_pomona_fix(*a);
+(gdb) x/16i $rip
+=> 0x40065c <fix_array+19>:	callq  0x400630 <hmc_pomona_fix>
+   0x400661 <fix_array+24>:	mov    %eax,(%rbx)
+   0x400663 <fix_array+26>:	add    $0x1,%ebp
+   0x400666 <fix_array+29>:	add    $0x4,%rbx
+   0x40066a <fix_array+33>:	cmp    %r12d,%ebp
+   0x40066d <fix_array+36>:	jl     0x40065a <fix_array+17>
+   0x40066f <fix_array+38>:	pop    %rbx
+   0x400670 <fix_array+39>:	pop    %rbp
+   0x400671 <fix_array+40>:	pop    %r12
+   0x400673 <fix_array+42>:	retq   
+   0x400674 <main>:	push   %r14
+   0x400676 <main+2>:	push   %r13
+   0x400678 <main+4>:	push   %r12
+   0x40067a <main+6>:	push   %rbp
+   0x40067b <main+7>:	push   %rbx
+   0x40067c <main+8>:	mov    %edi,%ebp
+(gdb) stepi
+hmc_pomona_fix (x=0) at problem2.c:11
+11	    if (x == 42)
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 10886] will be killed.
+
+Quit anyway? (y or n) y
+11:15 [jzamudio@wilkes:~/Desktop/cs105]
+26 % gdb problem2
+GNU gdb (Gentoo 7.10.1 vanilla) 7.10.1
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://bugs.gentoo.org/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from problem2...done.
+(gdb) r 1 42 2 47 3
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem2 1 42 2 47 3
+1 47 2 42 3 
+[Inferior 1 (process 11896) exited normally]
+(gdb) quit
+11:15 [jzamudio@wilkes:~/Desktop/cs105]
+27 % gdb problem2
+GNU gdb (Gentoo 7.10.1 vanilla) 7.10.1
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://bugs.gentoo.org/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from problem2...done.
+(gdb) b fix_array 
+Breakpoint 1 at 0x400649: file problem2.c, line 20.
+(gdb) r 1 42 2 47 3
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem2 1 42 2 47 3
+
+Breakpoint 1, fix_array (a=a@entry=0x602010, a_size=a_size@entry=5)
+    at problem2.c:20
+20	{
+(gdb) stepi
+0x000000000040064b	20	{
+(gdb) stepi
+0x000000000040064c	20	{
+(gdb) stepi
+0x000000000040064d	20	{
+(gdb) stepi
+0x0000000000400650	20	{
+(gdb) stepi
+23	    for (i = 0;  i < a_size;  i++, a++) {
+(gdb) stepi 5
+0x000000000040065c	24		*a = hmc_pomona_fix(*a);
+(gdb) nexti
+0x0000000000400661	24		*a = hmc_pomona_fix(*a);
+(gdb) b *0X400673
+Breakpoint 2 at 0x400673: file problem2.c, line 26.
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x0000000000400673 in fix_array (a=<optimized out>, 
+    a@entry=0x602010, a_size=a_size@entry=5) at problem2.c:26
+26	}
+(gdb) 
