@@ -81,4 +81,90 @@ Problem 2
 	0x40490fdb. Yes, it is edifying.
 
 3)	
-	The output is the result of (2) split into its four different byte components. 
+	The output is the result of (2) split into its four different byte components. In other words, the output is the result of splitting 0x40490fdb into four two-byte segments.
+
+4)
+	x/fw &puzzle1 = 3.14159274
+
+5)
+	It is not correct. It is wrong because the last two digits of puzzle1 are different from the correct value of pi.
+
+6)
+	The human friendly value of puzzle2 is 2.7182818284590451 ~ e
+
+7)
+	Yes, because it is suppose to be an array of ints, but it turns out to be an rational number.
+
+8)
+	No, it is not correct. It is almost correct, but the last digit is not different from the actual value of e.
+
+9)
+	The string “Was that really so hard?” is stored in puzzle3.
+
+10)
+	No, you don’t need a print statement because gdb already prints out a value for a_size at the breakpoint.
+
+11)
+	a = 0x602010
+
+12)
+	Line 24 last displayed a.
+
+13)
+	The value of a is now 0x602014 and the value of i is 1.
+
+14)
+	We end up at the beginning of the for-loop on line 23.
+
+15)
+	a is now 0x602018.
+
+16)
+	We get 1.
+
+17)
+	We end up at line 24.
+
+18)
+	a is now 0x602030.
+
+19)
+	p *a = 21
+
+Problem 3
+
+1)
+	The output is: 1 47 2 42 3
+
+2)
+	The program stops at line 29.
+
+3)
+	The program stops at line 35.
+
+4)
+	No. It takes us to the end of the program and returns the result that we got in (1).
+
+5)
+	This assembly code corresponds to the initialization of i to 1 in the for statement.
+
+6)
+	It tells us that we’re at line 36 in the source code.
+
+7)
+	The full contents of the array are: {0, 1, 42, 2, 47, 0}
+
+8)
+	We stop at the third breakpoint which is at line 36.
+
+9)
+	The registers that have not be covered in class are rcx, eflags, ds, es, fs, gs.
+
+*10)
+	The flags that are currently set that we have discusses in class is just the ZF. 
+
+11)
+	The value of $r8 = 140737351872352. The value obtained from “p/x $r8” (0x7ffff7dd6f60) is not that meaningful. The relationship between the values printed for $r8d is that the least significant four bytes of $r8 are printed in hex and dec.
+
+12)
+	
