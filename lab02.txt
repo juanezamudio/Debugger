@@ -21,12 +21,12 @@ Problem 1
 	0x0 - NULL pointer
 
 5) 
-	1835
+	-1835
 
-*6)
+6)
 	argc = 2
-	argv[] = {0x7fffffffe742, 0x7fffffffe76c}
-	The elements of argv[] came from 
+	argv[] = {"/mnt/home/jzamudio/Desktop/cs105/problem1", "5"}
+	The elements of argv[] came from the commands that were passed on the command line. The first element is the program name (given by program path) and the second element came from the argument passed to run, which was 5. Thus, that is why argc has a value of 2.
 
 7) 
 	a) atoi.c:26 
@@ -44,19 +44,19 @@ Problem 1
 	a = 5
 	b = 16
 
-*11)
+11)
 	a) Lines 6, 5, 8, 9
-	b) The debugger is showing us these lines in this order because it needs the parameter a to put into the result variable and then it needs to set up variable i for the while loop. Since i is not needed right away, a is put into the result var first.
+	b) The debugger is showing us these lines in this order because the compiler is reorganizing the lines for optimization, so they're not in the same order as the source code, although switching the order of lines 5 and 6 actually doesn't matter.
 
-*12)
-	 The program stops at problem1.c:17
+12)
+	 The program stops at the call to loop_while in main (problem1.c:17)
 
 13)
 	a) 0x00000000004004ca
 	b) 0x00000000004004f7
 
-*14)
-	
+14)
+	There is no call to loop_while.
 
 15)
 	a) print/x 42 prints the hexadecimal number from a decimal number 42 (print/x 42 = 0x2a)
@@ -65,13 +65,20 @@ Problem 1
 16)
 	The constant in the sub comes from the int value of parameter b, which is 16
 
-*17)
-	
+17)
+	Since main was optimized, the call to loop_while happens inside the main function.
 
-*19) 
+19) 
 	result = -1580
-	No out-of-order execution as a result of optimization
+	There were no out-of-order execution as a result of optimization
 
 Problem 2
 
 1)
+	1078530011
+
+2)
+	0x40490fdb. Yes, it is edifying.
+
+3)	
+	The output is the result of (2) split into its four different byte components. 

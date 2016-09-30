@@ -1,0 +1,1548 @@
+Last login: Thu Sep 29 18:50:30 on ttys000
+WL-204-30:Desktop jzamudio14$ jzamudio@wilkes.cs.hmc.edu
+-bash: jzamudio@wilkes.cs.hmc.edu: command not found
+WL-204-30:Desktop jzamudio14$ ssh jzamudio@wilkes.cs.hmc.edu
+The authenticity of host 'wilkes.cs.hmc.edu (134.173.42.167)' can't be established.
+ECDSA key fingerprint is SHA256:3yEf01IkshCHEQA3SyO3BoBqahGQgqTu+/ZoAnEgVcQ.
+Are you sure you want to continue connecting (yes/no)? y
+Please type 'yes' or 'no': yes
+Warning: Permanently added 'wilkes.cs.hmc.edu,134.173.42.167' (ECDSA) to the list of known hosts.
+Password: 
+Password: 
+Password: 
+jzamudio@wilkes.cs.hmc.edu's password: 
+
+WL-204-30:Desktop jzamudio14$ ssh jzamudio@knuth.cs.hmc.edu
+The authenticity of host 'knuth.cs.hmc.edu (134.173.42.100)' can't be established.
+ECDSA key fingerprint is SHA256:xlJm7Os6Zo9+ZSoSmk9zk4Rxotyxk580VGPzJKs8hmY.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'knuth.cs.hmc.edu,134.173.42.100' (ECDSA) to the list of known hosts.
+Password: 
+Password: 
+Password: 
+jzamudio@knuth.cs.hmc.edu's password: 
+	
+	knuth: HMC Computer Science Department         nServ A413.v3
+	Gentoo Linux/amd64
+	        64 cores (4x AMD Opteron 6276) with 512GB RAM
+
+	>>>>>>>>>>>>>>>>>>> AWESOME USERS ONLY! <<<<<<<<<<<<<<<<<<<<
+
+	Upon encountering bizarre behavior, open a ticket:
+	   https://request.cs.hmc.edu/
+	
+	System policy is detailed at the following web page:
+	   https://www.cs.hmc.edu/wiki/QREF/Policy
+	Users are responsible for reading and following all system 
+	policies. Use of this system implies consent to follow all 
+	system policies.
+
+	Compliance will result in friendship with this majestic bear:
+	   http://bit.ly/Q9vL9s
+
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Last login: Thu Sep 29 18:55:28 2016 from 134.173.204.30
+Notice number 21:
+Expires: never
+Subject: what to do when leaving the labs
+Date: 05/21/2002
+
+If you are the last person out of either of the cs labs (Birch or Hot Air)
+Please LOCK THE DOOR and turn off the lights.
+
+thank you.
+CS Dept Staff
+
+
+You can always run 'notice -d 21' to view this
+notice later
+
+Type 'y' when you have finished reading this notice.
+Have you read this notice? y
+--------------------------------------------------------------------------------acheng aozdemir cds cs5grad cstanfill cto dhouck dobermiller dodds dzhu efessler emueller geoff is jcruz jeff jiwang jjirsa jmilling jzamudio keller lakula lnelson lyin mbartoli mknittel mkukartsev mlaugharn mman mquijada msacks msheely mvalentine nbailey nhurwitz oneill owatkins pdapolito root selee tcb tlynam wnissen ylin yxhong 
+
+What no spouse of a writer can ever understand is that a writer is working
+when he's staring out the window.
+18:56 [jzamudio@knuth:~]
+1 % sl
+18:56 [jzamudio@knuth:~]
+2 % sl
+18:57 [jzamudio@knuth:~]
+3 % sl
+18:57 [jzamudio@knuth:~]
+4 % 
+18:58 [jzamudio@knuth:~]
+4 % 
+18:58 [jzamudio@knuth:~]
+4 % 
+
+Connection to knuth.cs.hmc.edu closed.
+WL-204-30:Desktop jzamudio14$ ssh jzamudio@wilkes.cs.hmc.edu
+Password: 
+Password: 
+Password: 
+jzamudio@wilkes.cs.hmc.edu's password: 
+Permission denied, please try again.
+jzamudio@wilkes.cs.hmc.edu's password: 
+Permission denied, please try again.
+jzamudio@wilkes.cs.hmc.edu's password: 
+
+	wilkes: HMC Computer Science Dept      Dell PowerEdge SC1425
+	Gentoo Linux/amd64
+	             2x Intel(R) Xeon(TM) 2.80GHz EM64T with 3GB RAM
+
+	****************** AUTHORIZED USERS ONLY! ******************
+
+	Upon encountering bizarre behavior, send mail to "staff".
+	Questions about the system should be sent to "consult".
+	Documentation for a variety topics may be found on the web:
+	http://www.cs.hmc.edu/qref/
+
+	System policy is detailed at the following web page:
+	http://www.cs.hmc.edu/wiki/QREF/Policy
+	Users are responsible for reading and following all system
+	policies. Use of this system implies consent to follow all
+	system policies.
+
+	Friday afternoons are reserved for system work and possible
+	down time.  Plan your schedules accordingly.
+
+	************************************************************
+
+	wilkes.cs.hmc.edu is named for Sir Maurice Vincent Wilkes
+	(26 June 1913 - 29 November 2010).  He is known for several
+	important early computers, including the EDSAC, EDSAC 2, and
+	Titan.  He developed microprogramming, symbolic labels, macros,
+	and subroutine libraries.  More information about Dr. Wilkes
+	can be found at http://en.wikipedia.org/wiki/Maurice_Wilkes
+
+
+
+abaugus ahuang emccarthy jamedina jzamudio mheuman msacks tstannard 
+
+Personally, I like to defiantly split my infinitives.  :-)
+             -- Larry Wall in <199708271551.IAA10211@wall.org>
+18:59 [jzamudio@wilkes:~]
+1 % passwd 
+Changing your password on the Linux machines is currently causing problems.
+Please change it on one of the Macs.  (Either log in on one of the lab
+machines, or ssh to cortana.cs.hmc.edu and run 'passwd' there.)
+18:59 [jzamudio@wilkes:~]
+2 % 
+19:00 [jzamudio@wilkes:~]
+2 % 
+
+Connection to wilkes.cs.hmc.edu closed.
+WL-204-30:Desktop jzamudio14$ ssh jzamudio@cortana.cs.hmc.edu
+ssh: connect to host cortana.cs.hmc.edu port 22: No route to host
+WL-204-30:Desktop jzamudio14$ ls
+16F-60-Homework04.pdf
+APC
+Acting
+Bootstrap
+CS105
+CS81
+Career
+Code2040
+College Plans
+College Search
+Connect to CS Server.command
+DACA
+Dramatic Imagination
+Family
+Financial Aid
+First Year
+Harpreet
+High School
+Homework 4 solutions.pdf
+Linear Algebra
+Movies
+Music
+Photos
+Research Assistant
+SACNAS
+SULU
+SURP
+Second Year
+Study Abroad
+Third Year
+USCIS
+United Claim
+Website
+~$LU Website Review.docx
+~$T Cryptocurrencies Bootcamp Essays.docx
+~$eatre Major Form 2.docx
+WL-204-30:Desktop jzamudio14$ ssh jzamudio@wilkes.cs.hmc.edu
+Password: 
+
+	wilkes: HMC Computer Science Dept      Dell PowerEdge SC1425
+	Gentoo Linux/amd64
+	             2x Intel(R) Xeon(TM) 2.80GHz EM64T with 3GB RAM
+
+	****************** AUTHORIZED USERS ONLY! ******************
+
+	Upon encountering bizarre behavior, send mail to "staff".
+	Questions about the system should be sent to "consult".
+	Documentation for a variety topics may be found on the web:
+	http://www.cs.hmc.edu/qref/
+
+	System policy is detailed at the following web page:
+	http://www.cs.hmc.edu/wiki/QREF/Policy
+	Users are responsible for reading and following all system
+	policies. Use of this system implies consent to follow all
+	system policies.
+
+	Friday afternoons are reserved for system work and possible
+	down time.  Plan your schedules accordingly.
+
+	************************************************************
+
+	wilkes.cs.hmc.edu is named for Sir Maurice Vincent Wilkes
+	(26 June 1913 - 29 November 2010).  He is known for several
+	important early computers, including the EDSAC, EDSAC 2, and
+	Titan.  He developed microprogramming, symbolic labels, macros,
+	and subroutine libraries.  More information about Dr. Wilkes
+	can be found at http://en.wikipedia.org/wiki/Maurice_Wilkes
+
+
+
+abaugus ahuang emccarthy jamedina jzamudio mheuman msacks tstannard 
+
+Lowery's Law:
+	If it jams -- force it.  If it breaks, it needed replacing anyway.
+19:03 [jzamudio@wilkes:~]
+1 % ls
+Desktop  Documents  Library  Maildir  courses  public_html
+19:03 [jzamudio@wilkes:~]
+2 % cd Desktop
+19:03 [jzamudio@wilkes:~/Desktop]
+3 % ls
+Additional Applications  Applications
+19:03 [jzamudio@wilkes:~/Desktop]
+4 % git clone https://github.com/juanezamudio/cs105.git
+Cloning into 'cs105'...
+remote: Counting objects: 9, done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 9 (delta 2), reused 9 (delta 2), pack-reused 0
+Unpacking objects: 100% (9/9), done.
+Checking connectivity... done.
+19:04 [jzamudio@wilkes:~/Desktop]
+5 % ls
+Additional Applications  Applications  cs105
+19:04 [jzamudio@wilkes:~/Desktop]
+6 % ls       
+Additional Applications  Applications  cs105
+19:04 [jzamudio@wilkes:~/Desktop]
+7 % cd cs105
+19:04 [jzamudio@wilkes:~/Desktop/cs105]
+8 % ls
+lab02.txt  problem1  problem1.c  problem2.c
+19:04 [jzamudio@wilkes:~/Desktop/cs105]
+9 % less problem1.c
+19:05 [jzamudio@wilkes:~/Desktop/cs105]
+10 % man atoi
+19:07 [jzamudio@wilkes:~/Desktop/cs105]
+11 % 
+19:07 [jzamudio@wilkes:~/Desktop/cs105]
+11 % git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+19:07 [jzamudio@wilkes:~/Desktop/cs105]
+12 % git pull
+Already up-to-date.
+19:07 [jzamudio@wilkes:~/Desktop/cs105]
+13 % gcc -g -o problem1 problem1.c
+19:07 [jzamudio@wilkes:~/Desktop/cs105]
+14 % gdb problem1
+GNU gdb (Gentoo 7.10.1 vanilla) 7.10.1
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://bugs.gentoo.org/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from problem1...done.
+(gdb) 
+(gdb) b main
+Breakpoint 1 at 0x4005b3: file problem1.c, line 17.
+(gdb) run
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem1 
+
+Breakpoint 1, main (argc=1, argv=0x7fffffffe468) at problem1.c:17
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+(gdb) c
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+__GI_____strtol_l_internal (nptr=0x0, endptr=endptr@entry=0x0, 
+    base=base@entry=10, group=group@entry=0, 
+    loc=0x7ffff7dd6f60 <_nl_global_locale>) at ../stdlib/strtol_l.c:297
+297	../stdlib/strtol_l.c: No such file or directory.
+(gdb) Quit
+(gdb) 
+Continuing.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+(gdb) quit
+19:10 [jzamudio@wilkes:~/Desktop/cs105]
+15 % ls
+lab02.txt  problem1  problem1.c  problem2.c
+19:11 [jzamudio@wilkes:~/Desktop/cs105]
+16 % open lab02.txt 
+zsh: correct 'open' to '_open' [nyae]? y
+_arguments:comparguments:313: can only be called from completion function
+19:11 [jzamudio@wilkes:~/Desktop/cs105]
+17 % gdb problem1 
+GNU gdb (Gentoo 7.10.1 vanilla) 7.10.1
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://bugs.gentoo.org/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from problem1...done.
+(gdb) b main
+Breakpoint 1 at 0x4005b3: file problem1.c, line 17.
+(gdb) r
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem1 
+
+Breakpoint 1, main (argc=1, argv=0x7fffffffe468) at problem1.c:17
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+(gdb) c
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+__GI_____strtol_l_internal (nptr=0x0, endptr=endptr@entry=0x0, 
+    base=base@entry=10, group=group@entry=0, 
+    loc=0x7ffff7dd6f60 <_nl_global_locale>) at ../stdlib/strtol_l.c:297
+297	../stdlib/strtol_l.c: No such file or directory.
+(gdb) bt
+#0  __GI_____strtol_l_internal (nptr=0x0, endptr=endptr@entry=0x0, 
+    base=base@entry=10, group=group@entry=0, 
+    loc=0x7ffff7dd6f60 <_nl_global_locale>)
+    at ../stdlib/strtol_l.c:297
+#1  0x00007ffff7a74c32 in __strtol (nptr=<optimized out>, 
+    endptr=endptr@entry=0x0, base=base@entry=10)
+    at ../stdlib/strtol.c:109
+#2  0x00007ffff7a72320 in atoi (nptr=<optimized out>) at atoi.c:27
+#3  0x00000000004005cb in main (argc=1, argv=0x7fffffffe468)
+    at problem1.c:17
+(gdb) frame 0
+#0  __GI_____strtol_l_internal (nptr=0x0, 
+    endptr=endptr@entry=0x0, base=base@entry=10, 
+    group=group@entry=0, 
+    loc=0x7ffff7dd6f60 <_nl_global_locale>)
+    at ../stdlib/strtol_l.c:297
+297	in ../stdlib/strtol_l.c
+(gdb) frame 1
+#1  0x00007ffff7a74c32 in __strtol (
+    nptr=<optimized out>, endptr=endptr@entry=0x0, 
+    base=base@entry=10) at ../stdlib/strtol.c:109
+109	../stdlib/strtol.c: No such file or directory.
+(gdb) frame 2
+#2  0x00007ffff7a72320 in atoi (nptr=<optimized out>)
+    at atoi.c:27
+27	atoi.c: No such file or directory.
+(gdb) frame 3
+#3  0x00000000004005cb in main (argc=1, 
+    argv=0x7fffffffe468) at problem1.c:17
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem1 
+
+Breakpoint 1, main (argc=1, argv=0x7fffffffe468)
+    at problem1.c:17
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+(gdb) print argv[1]
+$1 = 0x0
+(gdb) r 5
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem1 5
+
+Breakpoint 1, main (argc=2, argv=0x7fffffffe458)
+    at problem1.c:17
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+(gdb) c
+Continuing.
+-1835
+[Inferior 1 (process 29695) exited normally]
+(gdb) r
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem1 5
+
+Breakpoint 1, main (argc=2, argv=0x7fffffffe458)
+    at problem1.c:17
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+(gdb) print argv[0]
+$2 = 0x7fffffffe742 "/mnt/home/jzamudio/Desktop/cs105/problem1"
+(gdb) print argv[0]@argc
+$3 = {
+  0x7fffffffe742 "/mnt/home/jzamudio/Desktop/cs105/problem1", 0x7fffffffe76c "5"}
+(gdb) 
+Display all 187 possibilities? (y or n)
+(gdb) less problem1
+Undefined command: "less".  Try "help".
+(gdb) print argv[1]
+$4 = 0x7fffffffe76c "5"
+(gdb) print argv[2]
+$5 = 0x0
+(gdb) print argc
+$6 = 2
+(gdb) argv[3]
+Undefined command: "argv".  Try "help".
+(gdb) argv[0]
+Undefined command: "argv".  Try "help".
+(gdb) argv[1]
+Undefined command: "argv".  Try "help".
+(gdb) print argv[0]
+$7 = 0x7fffffffe742 "/mnt/home/jzamudio/Desktop/cs105/problem1"
+(gdb) print argv[1]
+$8 = 0x7fffffffe76c "5"
+(gdb) print argv[2]
+$9 = 0x0
+(gdb) print argv[3]
+$10 = 0x7fffffffe76e "USER=jzamudio"
+(gdb) s
+atoi (nptr=0x7fffffffe76c "5") at atoi.c:26
+26	atoi.c: No such file or directory.
+(gdb) finish
+Run till exit from #0  atoi (nptr=0x7fffffffe76c "5")
+    at atoi.c:26
+0x00000000004005cb in main (argc=2, 
+    argv=0x7fffffffe458) at problem1.c:17
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+Value returned is $11 = 5
+(gdb) s
+loop_while (a=5, b=16) at problem1.c:5
+5	    int i = 0;
+(gdb) list
+1	#include <stdio.h>
+2	
+3	int loop_while(int a, int b)
+4	{
+5	    int i = 0;
+6	    int result = a;
+7	    while (i < 256) {
+8		result += a;
+9		a -= b;
+10		i += b;
+(gdb) 
+11	    }
+12	    return result;
+13	}
+14	
+15	int main(int argc, char *argv[])
+16	{
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+18	    return 0;
+19	}
+(gdb) s
+6	    int result = a;
+(gdb) s
+7	    while (i < 256) {
+(gdb) s
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) s
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) list
+2	
+3	int loop_while(int a, int b)
+4	{
+5	    int i = 0;
+6	    int result = a;
+7	    while (i < 256) {
+8		result += a;
+9		a -= b;
+10		i += b;
+11	    }
+(gdb) s
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+12	    return result;
+(gdb) 
+13	}
+(gdb) 
+__printf (format=0x400674 "%d\n") at printf.c:28
+28	printf.c: No such file or directory.
+(gdb) 
+32	in printf.c
+(gdb) 
+28	in printf.c
+(gdb) 
+33	in printf.c
+(gdb) 
+32	in printf.c
+(gdb) 
+33	in printf.c
+(gdb) list
+28	in printf.c
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem1 5
+
+Breakpoint 1, main (argc=2, argv=0x7fffffffe458)
+    at problem1.c:17
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+(gdb) list
+12	    return result;
+13	}
+14	
+15	int main(int argc, char *argv[])
+16	{
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+18	    return 0;
+19	}
+(gdb) s
+atoi (nptr=0x7fffffffe76c "5") at atoi.c:26
+26	atoi.c: No such file or directory.
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem1 5
+
+Breakpoint 1, main (argc=2, argv=0x7fffffffe458)
+    at problem1.c:17
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+(gdb) s
+atoi (nptr=0x7fffffffe76c "5") at atoi.c:26
+26	atoi.c: No such file or directory.
+(gdb) finish
+Run till exit from #0  atoi (nptr=0x7fffffffe76c "5")
+    at atoi.c:26
+0x00000000004005cb in main (argc=2, 
+    argv=0x7fffffffe458) at problem1.c:17
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+Value returned is $12 = 5
+(gdb) s
+loop_while (a=5, b=16) at problem1.c:5
+5	    int i = 0;
+(gdb) list
+1	#include <stdio.h>
+2	
+3	int loop_while(int a, int b)
+4	{
+5	    int i = 0;
+6	    int result = a;
+7	    while (i < 256) {
+8		result += a;
+9		a -= b;
+10		i += b;
+(gdb) 
+11	    }
+12	    return result;
+13	}
+14	
+15	int main(int argc, char *argv[])
+16	{
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+18	    return 0;
+19	}
+(gdb) s
+6	    int result = a;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) print result
+$13 = 10
+(gdb) print a
+$14 = 5
+(gdb) print b
+$15 = 16
+(gdb) s
+10		i += b;
+(gdb) print a
+$16 = -11
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 9320] will be killed.
+
+Quit anyway? (y or n) y
+20:01 [jzamudio@wilkes:~/Desktop/cs105]
+18 % gcc -g -01 -o problem1 problem1.c
+gcc: error: unrecognized command line option ‘-01’
+20:02 [jzamudio@wilkes:~/Desktop/cs105]
+19 % gcc -g -O1 -o problem1 problem1.c
+20:02 [jzamudio@wilkes:~/Desktop/cs105]
+20 % gdb problem1
+GNU gdb (Gentoo 7.10.1 vanilla) 7.10.1
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://bugs.gentoo.org/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from problem1...done.
+(gdb) b loop_while 
+Breakpoint 1 at 0x40058b: file problem1.c, line 6.
+(gdb) r
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem1 
+
+Program received signal SIGSEGV, Segmentation fault.
+__GI_____strtol_l_internal (nptr=0x0, 
+    endptr=endptr@entry=0x0, base=base@entry=10, 
+    group=group@entry=0, 
+    loc=0x7ffff7dd6f60 <_nl_global_locale>)
+    at ../stdlib/strtol_l.c:297
+297	../stdlib/strtol_l.c: No such file or directory.
+(gdb) r 10
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem1 10
+
+Breakpoint 1, loop_while (a=10, b=b@entry=16)
+    at problem1.c:6
+6	    int result = a;
+(gdb) s
+5	    int i = 0;
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 12466] will be killed.
+
+Quit anyway? (y or n) y
+20:12 [jzamudio@wilkes:~/Desktop/cs105]
+21 % gcc -g -O2 -o problem1 problem1.c 
+20:13 [jzamudio@wilkes:~/Desktop/cs105]
+22 % gdb problem1 
+GNU gdb (Gentoo 7.10.1 vanilla) 7.10.1
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://bugs.gentoo.org/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from problem1...done.
+(gdb) b loop_while 
+Breakpoint 1 at 0x4004e0: loop_while. (2 locations)
+(gdb) r 20
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem1 20
+
+Breakpoint 1, main (argc=<optimized out>, 
+    argv=<optimized out>) at problem1.c:17
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+(gdb) r 20
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem1 20
+
+Breakpoint 1, main (argc=<optimized out>, 
+    argv=<optimized out>) at problem1.c:17
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+(gdb) s
+loop_while (b=16, a=20) at problem1.c:8
+8		result += a;
+(gdb) disassem main
+Dump of assembler code for function main:
+   0x00000000004004c0 <+0>:	sub    $0x8,%rsp
+   0x00000000004004c4 <+4>:	mov    0x8(%rsi),%rdi
+   0x00000000004004c8 <+8>:	xor    %eax,%eax
+   0x00000000004004ca <+10>:	callq  0x4004b0 <atoi@plt>
+   0x00000000004004cf <+15>:	lea    -0x100(%rax),%edx
+   0x00000000004004d5 <+21>:	mov    %eax,%ecx
+   0x00000000004004d7 <+23>:	nopw   0x0(%rax,%rax,1)
+=> 0x00000000004004e0 <+32>:	add    %ecx,%eax
+   0x00000000004004e2 <+34>:	sub    $0x10,%ecx
+   0x00000000004004e5 <+37>:	cmp    %edx,%ecx
+   0x00000000004004e7 <+39>:	jne    0x4004e0 <main+32>
+   0x00000000004004e9 <+41>:	mov    %eax,%edx
+   0x00000000004004eb <+43>:	mov    $0x400684,%esi
+   0x00000000004004f0 <+48>:	mov    $0x1,%edi
+   0x00000000004004f5 <+53>:	xor    %eax,%eax
+   0x00000000004004f7 <+55>:	callq  0x4004a0 <__printf_chk@plt>
+   0x00000000004004fc <+60>:	xor    %eax,%eax
+   0x00000000004004fe <+62>:	add    $0x8,%rsp
+   0x0000000000400502 <+66>:	retq   
+End of assembler dump.
+(gdb) print/x 42
+$1 = 0x2a
+(gdb) 
+$2 = 0x2a
+(gdb) p 0x2f
+$3 = 47
+(gdb) print/x 44
+$4 = 0x2c
+(gdb) p 0x10
+$5 = 16
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 17836] will be killed.
+
+Quit anyway? (y or n) y
+20:47 [jzamudio@wilkes:~/Desktop/cs105]
+23 % gcc -g -O3 -o problem1 problem1.c
+20:47 [jzamudio@wilkes:~/Desktop/cs105]
+24 % gdb problem1 
+GNU gdb (Gentoo 7.10.1 vanilla) 7.10.1
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://bugs.gentoo.org/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from problem1...done.
+(gdb) r
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem1 
+
+Program received signal SIGSEGV, Segmentation fault.
+__GI_____strtol_l_internal (nptr=0x0, endptr=endptr@entry=0x0, 
+    base=base@entry=10, group=group@entry=0, 
+    loc=0x7ffff7dd6f60 <_nl_global_locale>)
+    at ../stdlib/strtol_l.c:297
+297	../stdlib/strtol_l.c: No such file or directory.
+(gdb) disassem main
+Dump of assembler code for function main:
+   0x00000000004004c0 <+0>:	sub    $0x18,%rsp
+   0x00000000004004c4 <+4>:	mov    0x8(%rsi),%rdi
+   0x00000000004004c8 <+8>:	xor    %eax,%eax
+   0x00000000004004ca <+10>:	callq  0x4004b0 <atoi@plt>
+   0x00000000004004cf <+15>:	lea    -0x10(%rax),%ecx
+   0x00000000004004d2 <+18>:	mov    $0x4006f4,%esi
+   0x00000000004004d7 <+23>:	mov    $0x1,%edi
+   0x00000000004004dc <+28>:	mov    %ecx,0x4(%rsp)
+   0x00000000004004e0 <+32>:	lea    -0x20(%rax),%ecx
+   0x00000000004004e3 <+35>:	movd   0x4(%rsp),%xmm7
+   0x00000000004004e9 <+41>:	mov    %ecx,0x8(%rsp)
+   0x00000000004004ed <+45>:	lea    -0x30(%rax),%ecx
+   0x00000000004004f0 <+48>:	movd   0x8(%rsp),%xmm0
+   0x00000000004004f6 <+54>:	mov    %eax,0x8(%rsp)
+   0x00000000004004fa <+58>:	mov    %ecx,0xc(%rsp)
+   0x00000000004004fe <+62>:	movd   0x8(%rsp),%xmm1
+   0x0000000000400504 <+68>:	movd   0xc(%rsp),%xmm6
+   0x000000000040050a <+74>:	punpckldq %xmm7,%xmm1
+   0x000000000040050e <+78>:	punpckldq %xmm6,%xmm0
+   0x0000000000400512 <+82>:	punpcklqdq %xmm0,%xmm1
+   0x0000000000400516 <+86>:	movdqa 0x1e2(%rip),%xmm0        # 0x400700
+   0x000000000040051e <+94>:	movdqa %xmm1,%xmm3
+   0x0000000000400522 <+98>:	paddd  %xmm0,%xmm3
+   0x0000000000400526 <+102>:	movdqa %xmm3,%xmm2
+   0x000000000040052a <+106>:	paddd  %xmm3,%xmm1
+   0x000000000040052e <+110>:	paddd  %xmm0,%xmm2
+   0x0000000000400532 <+114>:	paddd  %xmm2,%xmm1
+---Type <return> to continue, or q <return> to quit---
+   0x0000000000400536 <+118>:	paddd  %xmm2,%xmm0
+   0x000000000040053a <+122>:	paddd  %xmm1,%xmm0
+   0x000000000040053e <+126>:	movdqa %xmm0,%xmm4
+   0x0000000000400542 <+130>:	psrldq $0x8,%xmm4
+   0x0000000000400547 <+135>:	paddd  %xmm4,%xmm0
+   0x000000000040054b <+139>:	movdqa %xmm0,%xmm5
+   0x000000000040054f <+143>:	psrldq $0x4,%xmm5
+   0x0000000000400554 <+148>:	paddd  %xmm5,%xmm0
+   0x0000000000400558 <+152>:	movd   %xmm0,0x4(%rsp)
+   0x000000000040055e <+158>:	mov    0x4(%rsp),%edx
+   0x0000000000400562 <+162>:	add    %eax,%edx
+   0x0000000000400564 <+164>:	xor    %eax,%eax
+   0x0000000000400566 <+166>:	callq  0x4004a0 <__printf_chk@plt>
+   0x000000000040056b <+171>:	xor    %eax,%eax
+   0x000000000040056d <+173>:	add    $0x18,%rsp
+   0x0000000000400571 <+177>:	retq   
+End of assembler dump.
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 32617] will be killed.
+
+Quit anyway? (y or n) y
+20:50 [jzamudio@wilkes:~/Desktop/cs105]
+25 % gcc -g -Og -o problem1 problem1.c
+20:50 [jzamudio@wilkes:~/Desktop/cs105]
+26 % gdb problem1 
+GNU gdb (Gentoo 7.10.1 vanilla) 7.10.1
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://bugs.gentoo.org/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from problem1...done.
+(gdb) b main
+Breakpoint 1 at 0x4005a4: file problem1.c, line 16.
+(gdb) r 20
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem1 20
+
+Breakpoint 1, main (argc=2, argv=0x7fffffffe458) at problem1.c:16
+16	{
+(gdb) s
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+(gdb) 
+atoi (nptr=0x7fffffffe76b "20") at atoi.c:26
+26	atoi.c: No such file or directory.
+(gdb) finish
+Run till exit from #0  atoi (nptr=0x7fffffffe76b "20")
+    at atoi.c:26
+0x00000000004005b6 in main (argc=<optimized out>, 
+    argv=<optimized out>) at problem1.c:17
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+Value returned is $1 = 20
+(gdb) s
+loop_while (a=20, b=b@entry=16) at problem1.c:6
+6	    int result = a;
+(gdb) 
+5	    int i = 0;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+13	}
+(gdb) 
+main (argc=<optimized out>, argv=<optimized out>) at problem1.c:17
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+(gdb) 
+printf (__fmt=0x400674 "%d\n") at /usr/include/bits/stdio2.h:104
+104	  return __printf_chk (__USE_FORTIFY_LEVEL - 1, __fmt, __va_arg_pack ());
+(gdb) 
+___printf_chk (flag=flag@entry=1, 
+    format=format@entry=0x400674 "%d\n") at printf_chk.c:26
+26	printf_chk.c: No such file or directory.
+(gdb) 
+30	in printf_chk.c
+(gdb) 
+31	in printf_chk.c
+(gdb) 
+32	in printf_chk.c
+(gdb) 
+34	in printf_chk.c
+(gdb) 
+35	in printf_chk.c
+(gdb) finish
+Run till exit from #0  ___printf_chk (flag=flag@entry=1, 
+    format=format@entry=0x400674 "%d\n") at printf_chk.c:35
+-1580
+main (argc=<optimized out>, argv=<optimized out>) at problem1.c:19
+19	}
+Value returned is $2 = 6
+(gdb) print result
+$3 = '\000' <repeats 113 times>
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 1381] will be killed.
+
+Quit anyway? (y or n) y
+20:53 [jzamudio@wilkes:~/Desktop/cs105]
+27 % gcc -g -Og -o problem1 problem1.c
+20:54 [jzamudio@wilkes:~/Desktop/cs105]
+28 % gdb problem1 
+GNU gdb (Gentoo 7.10.1 vanilla) 7.10.1
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://bugs.gentoo.org/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from problem1...done.
+(gdb) b main
+Breakpoint 1 at 0x4005a4: file problem1.c, line 16.
+(gdb) r 20
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem1 20
+
+Breakpoint 1, main (argc=2, argv=0x7fffffffe458) at problem1.c:16
+16	{
+(gdb) s
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+(gdb) 
+atoi (nptr=0x7fffffffe76b "20") at atoi.c:26
+26	atoi.c: No such file or directory.
+(gdb) finish
+Run till exit from #0  atoi (nptr=0x7fffffffe76b "20")
+    at atoi.c:26
+0x00000000004005b6 in main (argc=<optimized out>, 
+    argv=<optimized out>) at problem1.c:17
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+Value returned is $1 = 20
+(gdb) s
+loop_while (a=20, b=b@entry=16) at problem1.c:6
+6	    int result = a;
+(gdb) 
+5	    int i = 0;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+13	}
+(gdb) 
+main (argc=<optimized out>, argv=<optimized out>) at problem1.c:17
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+(gdb) 
+printf (__fmt=0x400674 "%d\n") at /usr/include/bits/stdio2.h:104
+104	  return __printf_chk (__USE_FORTIFY_LEVEL - 1, __fmt, __va_arg_pack ());
+(gdb) print result
+$2 = '\000' <repeats 113 times>
+(gdb) s
+___printf_chk (flag=flag@entry=1, 
+    format=format@entry=0x400674 "%d\n") at printf_chk.c:26
+26	printf_chk.c: No such file or directory.
+(gdb) r 20
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /mnt/home/jzamudio/Desktop/cs105/problem1 20
+
+Breakpoint 1, main (argc=2, argv=0x7fffffffe458) at problem1.c:16
+16	{
+(gdb) s
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+(gdb) 
+atoi (nptr=0x7fffffffe76b "20") at atoi.c:26
+26	atoi.c: No such file or directory.
+(gdb) finish
+Run till exit from #0  atoi (nptr=0x7fffffffe76b "20")
+    at atoi.c:26
+0x00000000004005b6 in main (argc=<optimized out>, 
+    argv=<optimized out>) at problem1.c:17
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+Value returned is $3 = 20
+(gdb) 
+"finish" not meaningful in the outermost frame.
+(gdb) 
+"finish" not meaningful in the outermost frame.
+(gdb) s
+loop_while (a=20, b=b@entry=16) at problem1.c:6
+6	    int result = a;
+(gdb) 
+5	    int i = 0;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+8		result += a;
+(gdb) 
+9		a -= b;
+(gdb) 
+10		i += b;
+(gdb) 
+7	    while (i < 256) {
+(gdb) 
+13	}
+(gdb) print result
+$4 = -1580
+(gdb) 
+$5 = -1580
+(gdb) 
+$6 = -1580
+(gdb) s
+main (argc=<optimized out>, argv=<optimized out>) at problem1.c:17
+17	    printf("%d\n", loop_while(atoi(argv[1]), 16));
+(gdb) print result
+$7 = '\000' <repeats 113 times>
+(gdb) disassem main
+Dump of assembler code for function main:
+   0x00000000004005a4 <+0>:	sub    $0x8,%rsp
+   0x00000000004005a8 <+4>:	mov    0x8(%rsi),%rdi
+   0x00000000004005ac <+8>:	mov    $0x0,%eax
+   0x00000000004005b1 <+13>:	callq  0x4004b0 <atoi@plt>
+   0x00000000004005b6 <+18>:	mov    $0x10,%esi
+   0x00000000004005bb <+23>:	mov    %eax,%edi
+   0x00000000004005bd <+25>:	callq  0x40058b <loop_while>
+=> 0x00000000004005c2 <+30>:	mov    %eax,%edx
+   0x00000000004005c4 <+32>:	mov    $0x400674,%esi
+   0x00000000004005c9 <+37>:	mov    $0x1,%edi
+   0x00000000004005ce <+42>:	mov    $0x0,%eax
+   0x00000000004005d3 <+47>:	callq  0x4004a0 <__printf_chk@plt>
+   0x00000000004005d8 <+52>:	mov    $0x0,%eax
+   0x00000000004005dd <+57>:	add    $0x8,%rsp
+   0x00000000004005e1 <+61>:	retq   
+End of assembler dump.
+(gdb) packet_write_wait: Connection to 134.173.42.167 port 22: Broken pipe
+WL-204-30:Desktop jzamudio14$ ls
+16F-60-Homework04.pdf
+APC
+Acting
+Bootstrap
+CS105
+CS81
+Career
+Code2040
+College Plans
+College Search
+Connect to CS Server.command
+DACA
+Debugger Lab
+Dramatic Imagination
+Family
+Financial Aid
+First Year
+Harpreet
+High School
+Homework 4 solutions.pdf
+Linear Algebra
+Movies
+Music
+Photos
+Research Assistant
+SACNAS
+SULU
+SURP
+Second Year
+Study Abroad
+Third Year
+USCIS
+United Claim
+Website
+~$LU Website Review.docx
+~$T Cryptocurrencies Bootcamp Essays.docx
+~$eatre Major Form 2.docx
+WL-204-30:Desktop jzamudio14$ 
